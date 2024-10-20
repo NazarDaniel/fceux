@@ -255,7 +255,7 @@ void FCEU_PutImage(void)
 		FCEU_DrawMovies(XBuf);
 		FCEU_DrawLagCounter(XBuf);
 		FCEU_DrawNTSCControlBars(XBuf);
-		FCEU_DrawRecordingStatus(XBuf);
+		// FCEU_DrawRecordingStatus(XBuf);
 		FCEU_DrawPauseCountDown(XBuf);
 		ShowFPS();
 	}
